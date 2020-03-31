@@ -6,8 +6,9 @@
 	height:auto;
 	margin: auto;
 }
-body
-
+body {
+  background-image:url(../images/bsImage.jpg);
+}
 .hidden
 {
 	display:none;
@@ -17,9 +18,10 @@ body
 {
 
 	height:80px;
-	background-color: grey;
+	background-color: #2574bd;
   margin:auto;
 	margin-top:0;
+
 }
 
 .headerText
@@ -76,7 +78,7 @@ body
 	-webkit-transition:-webkit-transform .3s;
 	-moz-transition:-moz-transform .3s;
 	color:#fff;
-		background-color: grey;
+		background-color: #2574bd;
 		font-size:20px;
 
 
@@ -100,7 +102,7 @@ body
 .team-info
 {
 	font-family: Arial;
-	color: grey;
+	color: white;
 	font-size: 30px;
 	line-height:50px;
 	position:relative;
