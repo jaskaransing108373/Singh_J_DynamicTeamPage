@@ -1,0 +1,111 @@
+
+
+.container
+{
+	width:1100px;
+	height:auto;
+	margin: auto;
+}
+body {
+  background-image:url(../images/bsImage.jpg);
+}
+.hidden
+{
+	display:none;
+}
+
+.mainHeader
+{
+
+	height:80px;
+	background-color: #2574bd;
+  margin:auto;
+	margin-top:0;
+
+}
+
+.headerText
+{
+	font-family:  Arial;
+	color: white;
+	font-size: 50px;
+	position: relative;
+	margin-left: 330px;
+
+}
+
+.imageContainer
+{
+	width:500px;
+	height: 500px;
+	background-color:grey;
+	overflow:hidden;
+}
+
+.teamImages
+{
+  margin: auto;
+	position:relative;
+	width:500px;
+	padding-top: 50px;
+}
+
+.teamImages img
+
+#Nav { margin-top:50px;
+
+}
+
+#teamList li {
+	display:inline;
+
+	padding:0px 100px;
+	cursor:pointer;
+}
+
+#Nav a
+{
+	font-size:40px;
+	font-family: Arial;
+
+}
+.info
+{
+	width:150px;
+	height:50px;
+	display:inline-block;
+	overflow:hidden;
+	-webkit-transition:-webkit-transform .3s;
+	-moz-transition:-moz-transform .3s;
+	color:#fff;
+		background-color: #2574bd;
+		font-size:20px;
+
+
+}
+.Jaskaran { background-position:0px -54px; }
+.Jaskaran:hover { background-position:0px 0px; }
+
+.Superman { background-position:-50.5px -54px; }
+.Superman:hover { background-position:-51px 0px; }
+
+#team-name
+{
+	font-family: Arial;
+	color: #000;
+  margin-left: 450px;
+	font-size: 36px;
+	position:relative;
+
+	}
+
+.team-info
+{
+	font-family: Arial;
+	color: white;
+	font-size: 30px;
+	line-height:50px;
+	position:relative;
+	margin-left:50px;
+
+}
