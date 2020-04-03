@@ -1,6 +1,7 @@
 (() => {
 
-	const teamButton = document.querySelectorAll('.info'),
+	const teamImage = document.querySelector('.teamImages')
+ 		teamButton = document.querySelectorAll('.info'),
     teamName = document.querySelector("#team-name"),
 		bannerImages = document.querySelector('#houseImages'),
 		teamInfo = document.querySelector('.team-info');
@@ -10,7 +11,7 @@
 		const teamData =[
 		["Jaskaran", `My name is Jaskaran. My dream is to become web developer and designer.
       I like to observe many trending graphics near me which are usually very
-      attractive.`],
+      attractive.`, `jaskaran.JPG`],
 
 		["Superman", `My name is Superman. I am friend of Jaskaran. basically I'm a superhero,
       but recently I had my interest in web developing too..`],
@@ -18,17 +19,18 @@
 
 
 
-	function changeImageSet()
-    {
-    document.getElementById('Image').src="images/superman.jpg";
-    
-    }
+	//function changeImageSet()
+  //  {
+  //  document.getElementById('Image').src="images/superman.jpg";
+
+//    }
 
 
 	function animateBanners(){
 
 			multiplier = this.dataset.offset;
 
+			teamImage.src = `images/${teamData[multiplier][2]}`;
 			teamName.textContent = `${teamData[multiplier][0]}`;
 			teamInfo.textContent = teamData[multiplier][1];
 		}
